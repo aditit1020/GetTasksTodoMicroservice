@@ -15,7 +15,7 @@ jobs:
       IMAGE_NAME: appadi-get-tasks-api
       IMAGE_TAG: v1
       ACR_NAME: acrdevAppAdi
-      ACR_LOGIN_SERVER: acrdevAppAdi.azurecr.io
+      ACR_LOGIN_SERVER: acrdevappadi.azurecr.io
 
     steps:
       - name: Checkout code
