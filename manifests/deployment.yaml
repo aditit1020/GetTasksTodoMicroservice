@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: appadi-get-task-api
-        image: acrdevAppAdi.azurecr.io/appadi-get-tasks-api:v1
+        image: acrdevappadi01.azurecr.io/appadi-get-tasks-api:v1
         ports:
         - containerPort: 8000
         env: 
